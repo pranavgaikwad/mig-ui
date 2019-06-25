@@ -9,6 +9,8 @@ a CAM UI to a cluster.
 Ansible and the `openshift` python module are required to be installed prior
 to running the deploy script, which uses ansible and the openshift extensions.
 
+Migration controller needs to be deployed on the host cluster before deploying mig ui.
+
 ## Deploy Instructions
 
 There are 3 main steps to configuring your environment to use the CAM UI:
